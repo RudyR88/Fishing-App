@@ -1,0 +1,10 @@
+:root {
+    --primary-ft: 'Raleway', sans-serif;
+    --secondary-ft: 'Montserrat', sans-serif;
+
+    --light-clr: #F9F9F9;
+    --accent-clr: #D26416;
+    --dark-clr: rgba(18, 10, 8, 0.8);
+    --dark-alpha: rgba(0, 0, 0, .5);
+    --bg-image: linear-gradient(var(--dark-alpha), var(--dark-alpha)), url('../assets/images/fishingBg.jpg') center/cover no-repeat;
+}

@@ -1,0 +1,12 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, p, a, ul, span {
+    margin-top: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: clamp(u.toRem(20), 2vw, u.toRem(23));
+    line-height: u.toRem(24.3);
+    letter-spacing: -0.05em;
+}
